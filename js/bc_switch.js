@@ -6,7 +6,7 @@
    Tutorial Case
 
    Author: rayden
-   Date:   
+   Date:   3/26/2025
 
    Filename: bc_switch.js
    
@@ -22,7 +22,7 @@ window.addEventListener("load", setupStyles);
 function setupStyles() {
    // Create a link element for the page view styles
    var pageStyle = document.createElement("link");
-   pageStyle.setAttribute("href", "bc_page.css");
+   pageStyle.setAttribute("href", "../css/bc_page.css");
    pageStyle.setAttribute("rel", "stylesheet");
    pageStyle.setAttribute("disabled", "disabled");
 
